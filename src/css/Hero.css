@@ -1,0 +1,63 @@
+.see-projects-button {
+  animation: float 4s ease-in-out infinite;
+}
+
+.typewriter {
+  font-size: 2rem;
+  max-width: fit-content;
+  overflow: hidden;
+  border-right: 0.15em solid orange;
+  white-space: nowrap;
+  letter-spacing: 0.15em;
+  animation: typing 5s steps(55, end), blink-caret 0.75s step-end infinite;
+}
+
+.background {
+  background-image: url(../assets/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-20px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .typewriter {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .typewriter {
+    font-size: 1.2rem;
+    animation: typing 2s steps(30, end), blink-caret 0.75s step-end infinite;
+  }
+}
