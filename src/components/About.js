@@ -50,7 +50,7 @@ function About() {
             id="about"
             className='min-vh-100 bg-black pt-5 position-relative'
         >
-            <Image src={cvPic} alt="cvPic" className='position-absolute top-0 start-0 translate-middle-x h-100 d-none d-sm-block' />
+            <Image src={cvPic} alt="cvPic" className='position-absolute top-0 start-0 translate-middle-x h-100 d-none d-sm-block cv-img' />
             <Container
                 className='min-vh-100 d-flex flex-column position-relative'
             >
