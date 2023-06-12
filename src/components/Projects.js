@@ -74,8 +74,9 @@ function Projects() {
                             style={{
                                 filter: "grayscale(1)",
                                 borderRadius: "200px 0px 200px 0px",
+                                width: "750px"
                             }}
-                            className='mx-auto'
+                            className='d-block ms-auto'
                         />
                     </Col>
                 </Row>
