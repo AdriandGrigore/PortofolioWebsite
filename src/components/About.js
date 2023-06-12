@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Image, Stack } from 'react-bootstrap'
+import { Button, Container, Image, Stack } from 'react-bootstrap'
 import cvPic from "../assets/POZA.png"
 import "../css/About.css"
 import { AiFillHtml5 } from "react-icons/ai"
@@ -60,9 +60,22 @@ function About() {
                     className='justify-content-center ms-auto text-start'
                     style={{ maxWidth: "1000px" }}
                 >
-                    <h1 className='text-warning display-1'>
-                        ABOUT ME
-                    </h1>
+                    <Stack
+                        direction='horizontal'
+                        gap={3}
+                        className='flex-wrap justify-content-between'
+                    >
+                        <h1 className='text-warning display-1'>
+                            ABOUT ME
+                        </h1>
+                        <Button
+                            href='/Grigore_Adrian_CV.pdf' download
+                            variant='outline-warning'
+                            size='md'
+                        >
+                            Resume
+                        </Button>
+                    </Stack>
                     <p className='text-white fs-5'>
                         I am a passionate and hard-working person who thrives on turning complex problems into elegant, user-friendly applications. I'm looking forward to an entry-level position in front end development. I strongly believe that you can achieve anything if you are willing to learn and work hard enough. I do have the passion and the ability to learn fast. I am driven to collaborate, contribute, and create applications that enhance user experiences.
                         I am highly adaptable and eager to learn new technologies and frameworks as front-end development evolves.
