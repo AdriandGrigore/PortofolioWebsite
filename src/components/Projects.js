@@ -71,6 +71,7 @@ function Projects() {
                         <Image
                             fluid
                             src={project1}
+                            alt='projectPic'
                             style={{
                                 filter: "grayscale(1)",
                                 borderRadius: "200px 0px 200px 0px",
