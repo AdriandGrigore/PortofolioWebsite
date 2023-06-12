@@ -24,7 +24,7 @@ function Projects() {
                             className='justify-content-between flex-wrap mt-5'
                         >
                             <h1
-                                className='text-warning display-1 text-start'
+                                className='text-warning display-3 text-start'
                             >
                                 HireChef-Website
                             </h1>
@@ -32,7 +32,7 @@ function Projects() {
                                 <Button
                                     href="https://github.com/AdriandGrigore/HireChef-Website"
                                     target='_blank'
-                                    size='lg'
+                                    size='md'
                                     variant="outline-warning"
                                     className='mx-2 my-1'
                                 >
@@ -41,7 +41,7 @@ function Projects() {
                                 <Button
                                     href="https://hirechef-website.web.app/"
                                     target='_blank'
-                                    size='lg'
+                                    size='md'
                                     variant="outline-warning"
                                     className='mx-2 my-1'
                                 >
